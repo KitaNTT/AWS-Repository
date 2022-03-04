@@ -1,6 +1,7 @@
 **Tạo EC2, và thực hiện assumerole thông qua AWS CLI**
 
 **SSH vào EC2 instance**
+
 ![image](https://user-images.githubusercontent.com/89054503/156734278-1a3ba997-1997-4c04-8d33-78c1ac274d07.png)
 
 **Cấu hình profile adminaccess có quyền admin**
