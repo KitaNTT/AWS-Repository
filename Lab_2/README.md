@@ -1,9 +1,9 @@
-### **TASK 1: Create EC2 instance with type t2.micro (in a public subnet)**<br />
+## **TASK 1: Create EC2 instance with type t2.micro (in a public subnet)**<br />
 **Launch instance LostSSHKey**<br />
 ![image](https://user-images.githubusercontent.com/89054503/156892743-2876c5d1-f468-47f7-b27c-05c9a406a062.png)<br />
 **Show all instance state**<br />
 ![image](https://user-images.githubusercontent.com/89054503/156892776-a38333e2-f85e-4694-a02f-f0d004c35baf.png)<br /><br />
-### **TASK 2: Connect SSH to the EC2 instance, remove the authorized_keys then disconnect the SSH and restore the authorized_keys to restore SSH access**<br />
+## **TASK 2: Connect SSH to the EC2 instance, remove the authorized_keys then disconnect the SSH and restore the authorized_keys to restore SSH access**<br />
 **SSH to Instance LoshSSHKey then remove authorized_keys file**<br />
 ![image](https://user-images.githubusercontent.com/89054503/156892846-ae9e8038-cedc-45fb-8f1e-0069666d9787.png)<br />
 **Stop Instance LostSSHKey then launch another Instance Named RecoverSSHKey (Both Instance using the same key-pair)**<br />
@@ -30,8 +30,9 @@
 ![image](https://user-images.githubusercontent.com/89054503/156893052-6670d930-f007-46a8-bf76-e62fa9a2b36a.png)<br />
 **Now can ssh again to LostSSHKey Instance**<br />
 ![image](https://user-images.githubusercontent.com/89054503/156893058-25818643-427d-4255-a319-8e30a4a15f40.png)<br />
-
-
+##**Task 3: Using Session Manager to the EC2 instance**
+**Create Role for EC2 Service**
+![image](https://user-images.githubusercontent.com/89054503/156911190-562c3e25-b566-4765-b9da-4e2681a121de.png)
 
 
 
