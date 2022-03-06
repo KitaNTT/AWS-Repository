@@ -50,7 +50,7 @@
 **Install awslog**<br />
 ![image](https://user-images.githubusercontent.com/89054503/156911346-2cf8670d-8686-4dc1-9ba9-b29f14511ab8.png)<br />
 **Mapping access and error log of nginx to awslog direction**<br />
-![image](https://user-**images.githubusercontent.com/89054503/156911359-a5d7eb4d-5fea-4801-b6b3-eb2e546fd670.png)<br />
+![image](https://user-images.githubusercontent.com/89054503/156911436-5c43fa64-d1c3-441d-a284-6193207727dc.png)<br />
 **Start awslog service**<br />
 ![image](https://user-images.githubusercontent.com/89054503/156911361-2ee6666d-8bb2-4eba-9a9f-f7cc0aa62fa8.png)<br />
 **View access log and error log from CloudWatch**<br />
