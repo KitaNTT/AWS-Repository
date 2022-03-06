@@ -37,7 +37,7 @@
 ![image](https://user-images.githubusercontent.com/89054503/156911213-b8101d70-ace4-4ab9-99e5-4bf965cbd505.png)<br />
 ### **Attach Role to instance LostSSHKey**<br />
 ![image](https://user-images.githubusercontent.com/89054503/156911249-85ff6a6b-fc9a-476d-9c5f-79b00c49c59a.png)<br />
-**Use Session Manager to access Instance LostSSHKey**<br />
+### **Use Session Manager to access Instance LostSSHKey**<br />
 ![image](https://user-images.githubusercontent.com/89054503/156911260-59fe7926-5b8b-4581-9ba1-3b3acfe6625f.png)<br />
 ![image](https://user-images.githubusercontent.com/89054503/156911265-48b10b7f-e8d8-4e67-b824-b57ec6adfc13.png)<br />
 ## **TASK 4: Install nginx on the EC instance**<br />
