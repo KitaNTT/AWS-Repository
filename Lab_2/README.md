@@ -33,6 +33,7 @@
 ##**Task 3: Using Session Manager to the EC2 instance**
 **Create Role for EC2 Service**
 ![image](https://user-images.githubusercontent.com/89054503/156911190-562c3e25-b566-4765-b9da-4e2681a121de.png)
+![image](https://user-images.githubusercontent.com/89054503/156911204-bae1c9c2-914d-40e5-8791-db03b48fa7e8.png)
 
 
 
