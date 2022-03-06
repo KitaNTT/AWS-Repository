@@ -47,6 +47,9 @@
 ![image](https://user-images.githubusercontent.com/89054503/156911335-54a847bb-98ce-4956-ad1f-fc5ded1c6034.png)<br />
 ![image](https://user-images.githubusercontent.com/89054503/156911336-6ca7e100-98d0-4219-8e19-6454280daa6e.png)<br />
 ### **Sending nginx access logs to CloudWatch Logs**<br />
+**Attach Policy “allow access to CloudWatch” to ec2role**<br />
+![image](https://user-images.githubusercontent.com/89054503/156911908-77dac332-9cd9-4c37-af45-3da6c2e92e9f.png)<br />
+![image](https://user-images.githubusercontent.com/89054503/156911910-040c6713-d8eb-4975-b0c1-a24c46ea2593.png)<br />
 **Install awslog**<br />
 ![image](https://user-images.githubusercontent.com/89054503/156911346-2cf8670d-8686-4dc1-9ba9-b29f14511ab8.png)<br />
 **Mapping access and error log of nginx to awslog direction**<br />
