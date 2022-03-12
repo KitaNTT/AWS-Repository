@@ -106,5 +106,14 @@ cd aws-scripts-mon <br />
 ![image](https://user-images.githubusercontent.com/89054503/158018372-9b5626a0-654b-4974-bd8e-82a885e21a1b.png)<br />
 #### Create CloudWatch Dashboard then add requirement Widget<br />
 ![image](https://user-images.githubusercontent.com/89054503/158018376-b2ae4a2b-f39d-4819-97d6-e6b037a459b1.png)<br />
+## **TASK 7: Create CloudWatch log filter for 404 error from nginx**<br />
+### Create metric filter<br />
+![image](https://user-images.githubusercontent.com/89054503/158019286-f488e482-18cb-4c08-8a49-1982ea2831c9.png)<br />
+### Define pattern<br />
+![image](https://user-images.githubusercontent.com/89054503/158019292-14582357-73a8-439a-90a4-05dfbe7087de.png)<br />
+![image](https://user-images.githubusercontent.com/89054503/158019295-cdec61e3-05a9-4e60-bc5f-08a0574eb257.png)<br />
+![image](https://user-images.githubusercontent.com/89054503/158019301-66022870-6a15-4f9b-b896-f977d3d89518.png)<br />
+![image](https://user-images.githubusercontent.com/89054503/158019305-ba2e37b5-c37e-48f2-bd49-49be6fc3b179.png)<br />
+
 
 
