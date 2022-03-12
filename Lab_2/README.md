@@ -72,6 +72,21 @@
 ![Screenshot_921](https://user-images.githubusercontent.com/89054503/158017973-e70e39f9-6e89-4d9c-bc11-f3a21ff95af7.png)<br />
 ### **Check files on S3**<br />
 ![Screenshot_922](https://user-images.githubusercontent.com/89054503/158018029-a68c50ed-e37e-4d3f-b9e3-4ed54c53bb4b.png)<br />
+## **Create CloudWatch Dashboard include Memory, CPU and Disk Usage**
+Install CloudWatch Agent from SSM
+![image](https://user-images.githubusercontent.com/89054503/158018114-f50a5015-02f7-4f67-bb6f-a908f6534c56.png)
+![image](https://user-images.githubusercontent.com/89054503/158018116-774b1250-1414-42d4-b884-0f6cee33ae66.png)
+![image](https://user-images.githubusercontent.com/89054503/158018117-8bc53d26-21c8-42ec-904d-fddc46b47456.png)
+![image](https://user-images.githubusercontent.com/89054503/158018124-cf7d9659-8672-42e3-bf6e-a143019e1d6a.png)
+![image](https://user-images.githubusercontent.com/89054503/158018126-e2eac325-eec3-4bfe-b71b-db1978e571df.png)
+![image](https://user-images.githubusercontent.com/89054503/158018128-fbfa43b7-40b5-446d-a751-e7503f75798f.png)
+![image](https://user-images.githubusercontent.com/89054503/158018132-abe793c8-2c40-47a9-bfb9-2785f0a66f22.png)
+![image](https://user-images.githubusercontent.com/89054503/158018137-35fdb966-1da7-4f86-bfed-dbef4a2c7c36.png)
+![image](https://user-images.githubusercontent.com/89054503/158018139-0ed35cec-fcef-47d5-89c4-0878ccd21608.png)
+![image](https://user-images.githubusercontent.com/89054503/158018144-864aa8ed-829d-4869-83da-bc090681fb3a.png)
+
+
+
 
 
 
