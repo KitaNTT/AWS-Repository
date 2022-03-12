@@ -72,7 +72,7 @@
 ![Screenshot_921](https://user-images.githubusercontent.com/89054503/158017973-e70e39f9-6e89-4d9c-bc11-f3a21ff95af7.png)<br />
 ### **Check files on S3**<br />
 ![Screenshot_922](https://user-images.githubusercontent.com/89054503/158018029-a68c50ed-e37e-4d3f-b9e3-4ed54c53bb4b.png)<br />
-## **Create CloudWatch Dashboard include Memory, CPU and Disk Usage**<br />
+## **TASK 6: Create CloudWatch Dashboard include Memory, CPU and Disk Usage**<br />
 ### **Install CloudWatch Agent from SSM**<br />
 ![image](https://user-images.githubusercontent.com/89054503/158018114-f50a5015-02f7-4f67-bb6f-a908f6534c56.png)<br />
 ![image](https://user-images.githubusercontent.com/89054503/158018116-774b1250-1414-42d4-b884-0f6cee33ae66.png)<br />
