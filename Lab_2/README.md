@@ -104,7 +104,7 @@ cd aws-scripts-mon <br />
 #### Check metric on CloudWatch<br />
 ![image](https://user-images.githubusercontent.com/89054503/158018369-45ce7ab7-cbb1-4706-87ee-d7e70ae96549.png)<br />
 ![image](https://user-images.githubusercontent.com/89054503/158018372-9b5626a0-654b-4974-bd8e-82a885e21a1b.png)<br />
-#### Create CloudWatch Dashboard<br />
+#### Create CloudWatch Dashboard then add requirement Widget<br />
 ![image](https://user-images.githubusercontent.com/89054503/158018376-b2ae4a2b-f39d-4819-97d6-e6b037a459b1.png)<br />
 
 
