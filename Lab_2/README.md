@@ -72,17 +72,39 @@
 ![Screenshot_921](https://user-images.githubusercontent.com/89054503/158017973-e70e39f9-6e89-4d9c-bc11-f3a21ff95af7.png)<br />
 ### **Check files on S3**<br />
 ![Screenshot_922](https://user-images.githubusercontent.com/89054503/158018029-a68c50ed-e37e-4d3f-b9e3-4ed54c53bb4b.png)<br />
-## **Create CloudWatch Dashboard include Memory, CPU and Disk Usage**
-### **Install CloudWatch Agent from SSM**
-![image](https://user-images.githubusercontent.com/89054503/158018114-f50a5015-02f7-4f67-bb6f-a908f6534c56.png)
-![image](https://user-images.githubusercontent.com/89054503/158018116-774b1250-1414-42d4-b884-0f6cee33ae66.png)
-![image](https://user-images.githubusercontent.com/89054503/158018117-8bc53d26-21c8-42ec-904d-fddc46b47456.png)
-![image](https://user-images.githubusercontent.com/89054503/158018124-cf7d9659-8672-42e3-bf6e-a143019e1d6a.png)
-### Configure CloudWatch Agent via Wizard
-![image](https://user-images.githubusercontent.com/89054503/158018126-e2eac325-eec3-4bfe-b71b-db1978e571df.png)
-![image](https://user-images.githubusercontent.com/89054503/158018128-fbfa43b7-40b5-446d-a751-e7503f75798f.png)
-![image](https://user-images.githubusercontent.com/89054503/158018132-abe793c8-2c40-47a9-bfb9-2785f0a66f22.png)
-![image](https://user-images.githubusercontent.com/89054503/158018137-35fdb966-1da7-4f86-bfed-dbef4a2c7c36.png)
-![image](https://user-images.githubusercontent.com/89054503/158018139-0ed35cec-fcef-47d5-89c4-0878ccd21608.png)
-![image](https://user-images.githubusercontent.com/89054503/158018144-864aa8ed-829d-4869-83da-bc090681fb3a.png)
+## **Create CloudWatch Dashboard include Memory, CPU and Disk Usage**<br />
+### **Install CloudWatch Agent from SSM**<br />
+![image](https://user-images.githubusercontent.com/89054503/158018114-f50a5015-02f7-4f67-bb6f-a908f6534c56.png)<br />
+![image](https://user-images.githubusercontent.com/89054503/158018116-774b1250-1414-42d4-b884-0f6cee33ae66.png)<br />
+![image](https://user-images.githubusercontent.com/89054503/158018117-8bc53d26-21c8-42ec-904d-fddc46b47456.png)<br />
+![image](https://user-images.githubusercontent.com/89054503/158018124-cf7d9659-8672-42e3-bf6e-a143019e1d6a.png)<br />
+#### Configure CloudWatch Agent via Wizard<br />
+![image](https://user-images.githubusercontent.com/89054503/158018126-e2eac325-eec3-4bfe-b71b-db1978e571df.png)<br />
+![image](https://user-images.githubusercontent.com/89054503/158018128-fbfa43b7-40b5-446d-a751-e7503f75798f.png)<br />
+![image](https://user-images.githubusercontent.com/89054503/158018132-abe793c8-2c40-47a9-bfb9-2785f0a66f22.png)<br />
+![image](https://user-images.githubusercontent.com/89054503/158018137-35fdb966-1da7-4f86-bfed-dbef4a2c7c36.png)<br />
+![image](https://user-images.githubusercontent.com/89054503/158018139-0ed35cec-fcef-47d5-89c4-0878ccd21608.png)<br />
+#### Run CloudWatch Agent<br />
+![image](https://user-images.githubusercontent.com/89054503/158018144-864aa8ed-829d-4869-83da-bc090681fb3a.png)<br />
+#### Check Metric on CloudWatch<br />
+![image](https://user-images.githubusercontent.com/89054503/158018276-f69baa34-fc78-4fc0-ba7c-0af2ce87d2bb.png)<br />
+### Use CloudWatch monitoring Scrip for Disk Usage and Memory Usage<br />
+**(refer https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/monitoring-scripts-intro.html)**<br />
+#### install the required packages via CLI below<br />
+sudo yum install -y perl-Switch perl-DateTime perl-Sys-Syslog perl-LWP-Protocol-https perl-Digest-SHA.x86_64 <br />
+#### Install monitoring scripts<br />
+curl https://aws-cloudwatch.s3.amazonaws.com/downloads/CloudWatchMonitoringScripts-1.2.2.zip -O <br />
+unzip CloudWatchMonitoringScripts-1.2.2.zip && \ <br />
+rm CloudWatchMonitoringScripts-1.2.2.zip && \ <br />
+cd aws-scripts-mon <br />
+#### Setup script file to run for crontab <br />
+![image](https://user-images.githubusercontent.com/89054503/158018340-ee74a82c-e629-46f6-8b0f-1b152a8b7316.png)<br />
+#### Setup crontab for send metric every 15 mins<br />
+![image](https://user-images.githubusercontent.com/89054503/158018346-ef661388-0365-42da-9326-df8b1ccae409.png)<br />
+#### Check metric on CloudWatch<br />
+![image](https://user-images.githubusercontent.com/89054503/158018369-45ce7ab7-cbb1-4706-87ee-d7e70ae96549.png)<br />
+![image](https://user-images.githubusercontent.com/89054503/158018372-9b5626a0-654b-4974-bd8e-82a885e21a1b.png)<br />
+#### Create CloudWatch Dashboard<br />
+![image](https://user-images.githubusercontent.com/89054503/158018376-b2ae4a2b-f39d-4819-97d6-e6b037a459b1.png)<br />
+
 
