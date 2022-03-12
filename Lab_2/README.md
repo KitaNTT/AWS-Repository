@@ -59,6 +59,15 @@
 #### **View access log and error log from CloudWatch**<br />
 ![image](https://user-images.githubusercontent.com/89054503/156911365-60d8471f-84e1-4c2a-9fdc-407b3ac24337.png)<br />
 ![image](https://user-images.githubusercontent.com/89054503/156911366-3e11abdf-0fee-4f0a-a5c0-91f872d8e0a1.png)<br />
-
+## **TASK 5: Create an S3 bucket and sync content of nginx html folder**<br />
+Create S3 bucket
+![image](https://user-images.githubusercontent.com/89054503/158017736-fc2e36ef-1603-4117-91cd-a5e625104c12.png)
+Add permission access S3 for ec2role
+![image](https://user-images.githubusercontent.com/89054503/158017873-810923f9-3f33-45ac-88ad-b26affc8eb0e.png)
+Create file bashscript.txt for initial setup: install nginx, install aws, setup direction sync to awslog
+![image](https://user-images.githubusercontent.com/89054503/158017899-e4554f72-075e-4443-ab73-8beb3ea2ab33.png)
+Setup file backup.sh
+![image](https://user-images.githubusercontent.com/89054503/158017918-09b142f2-3bdd-4e27-94dc-85ba6a470612.png)
+Setup crontab
 
 
