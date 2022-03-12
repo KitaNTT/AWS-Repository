@@ -86,10 +86,3 @@
 ![image](https://user-images.githubusercontent.com/89054503/158018139-0ed35cec-fcef-47d5-89c4-0878ccd21608.png)
 ![image](https://user-images.githubusercontent.com/89054503/158018144-864aa8ed-829d-4869-83da-bc090681fb3a.png)
 
-
-
-
-
-
-
-
