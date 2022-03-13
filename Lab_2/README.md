@@ -66,6 +66,9 @@
 ![image](https://user-images.githubusercontent.com/89054503/158017873-810923f9-3f33-45ac-88ad-b26affc8eb0e.png)<br />
 ### **Create file bashscript.txt for initial setup: install nginx, install aws, setup direction sync to awslog**<br />
 ![image](https://user-images.githubusercontent.com/89054503/158017899-e4554f72-075e-4443-ab73-8beb3ea2ab33.png)<br />
+### Launch EC2 instance with user data bashscript.txt and attach role<br />
+![image](https://user-images.githubusercontent.com/89054503/158063137-e03f4a89-059b-4a29-a85f-85404efa7ecc.png)<br />
+![image](https://user-images.githubusercontent.com/89054503/158063142-6cf5672f-cf71-45c3-9790-3f958afb5541.png)<br />
 ### **Setup file backup.sh**<br />
 ![image](https://user-images.githubusercontent.com/89054503/158017918-09b142f2-3bdd-4e27-94dc-85ba6a470612.png)<br />
 ### **Setup crontab**<br />
