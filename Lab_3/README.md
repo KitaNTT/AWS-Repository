@@ -1,5 +1,5 @@
 ## **TASK 1: Create a working VPC**<br />
-### **CREATE VPC **<br />
+### CREATE VPC<br />
 ![image](https://user-images.githubusercontent.com/89054503/160119616-5432de95-99e4-4cbd-910b-690f17b1b034.png)<br />
 ### Create subnet with vpc-id<br />
 ![image](https://user-images.githubusercontent.com/89054503/160119734-e893f283-c5b4-4984-818f-365658fea289.png)<br />
