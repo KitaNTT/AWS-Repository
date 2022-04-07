@@ -33,7 +33,7 @@
 ![image](https://user-images.githubusercontent.com/89054503/162139963-61141827-600f-4c27-b49f-33262975d7ec.png) <br />
 ![image](https://user-images.githubusercontent.com/89054503/162139976-40a3bff4-f28c-411a-94ce-aa1034a17a66.png) <br />
 ## **TASK 3: Connect SSH to EC2 Instance and ping to another EC2 Instance via VPC Peering** <br />
-### Create VPC Peering to another account <br />
+### Create VPC Peering from another account <br />
 ![image](https://user-images.githubusercontent.com/89054503/162145871-2c6f7f49-eec8-4932-abd5-25e532fcd584.png)
 ### Accept VPC <br />
 ![image](https://user-images.githubusercontent.com/89054503/162140278-27b27eb6-c4ba-46fe-a509-72748682cdfb.png) <br />
