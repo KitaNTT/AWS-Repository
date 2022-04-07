@@ -24,3 +24,18 @@
 ![image](https://user-images.githubusercontent.com/89054503/160120062-4bcb6d59-c8f1-4b4a-b6b1-0eb5a63e6645.png)<br />
 ### SSH to new EC Instance<br />
 ![image](https://user-images.githubusercontent.com/89054503/160120103-46b389c9-12ff-4d07-afcf-46c5340b90c4.png)<br />
+## **TASK 2: Create a EC2 Instance in Private Subnet then Create a VPC Endpoint for SSM and connect Session Manager to this EC2 Instance**<br />
+### Create EC2 Instance in Private Subnet, This EC2 Instance can not connected via SSM <br />
+![image](https://user-images.githubusercontent.com/89054503/162139403-2d98608d-fd73-4cf8-a2c7-82f0fc55a386.png) <br />
+### Create VPN Endpoint for SSM, SSM Message,  EC2 Message <br />
+![image](https://user-images.githubusercontent.com/89054503/162139624-6c33e198-e974-43c4-86db-0a768276395b.png) <br />
+### Reboot the EC2 Instance, after that we can connect SSM to this EC2 Instance <br />
+![image](https://user-images.githubusercontent.com/89054503/162139963-61141827-600f-4c27-b49f-33262975d7ec.png) <br />
+![image](https://user-images.githubusercontent.com/89054503/162139976-40a3bff4-f28c-411a-94ce-aa1034a17a66.png) <br />
+## **TASK 3: Connect SSH to EC2 Instance and ping to another EC2 Instance via VPC Peering** <br />
+### Create VPC Peering to another account <br />
+### Accept VPC <br />
+![image](https://user-images.githubusercontent.com/89054503/162140278-27b27eb6-c4ba-46fe-a509-72748682cdfb.png) <br />
+### SSH to EC2 Instance Same Account, then SSH to another EC2 Instance <br />
+![image](https://user-images.githubusercontent.com/89054503/162140326-bfbcf52d-81f6-4086-b55a-1d6986218ca7.png) <br />
+
